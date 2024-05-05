@@ -2,9 +2,53 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    background-color: aliceblue;
+    background-color:cornsilk;
+    text-align: center;
+    padding: 8px;
+    border-radius: 12px;
+}
+h2 {
+    background-color: cornsilk;
+    padding: 8px;
+    border-radius: 12px;
+    text-align: center;
 }
 ul, li {
     padding-top: 2px;
     padding-bottom: 2px;
+}
+.main {
+    width: 640px;
+    margin: 0 auto;
+}
+.recipePicture {
+    width: 360px;
+    height: 360px;
+    margin: 0 auto;
+    display: block;
+}
+.previewPicture {
+    width:280px;
+    height:280px;
+    margin: 0 auto;
+}
+.recipeIndex {
+    width: 360px;
+    margin: 0 auto;
+}
+.recipeIndexItem {
+    display: block;
+    background-color: cornsilk;
+    margin:24px;
+    padding: 18px;
+    border-radius: 18px;
+}
+.recipeIndex ul {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+.recipeIndex li {
+    font-size: 24px;
+    padding-bottom: 12px;
 }
